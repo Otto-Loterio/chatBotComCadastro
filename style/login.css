@@ -1,0 +1,96 @@
+#botaoModoEscuro {
+  font-size: 0.9rem;
+  padding: 0.6rem;
+  cursor: pointer;
+  margin: 0.9rem;
+  font-size: 16pt;
+  border-radius: 1.4rem;
+  padding: 0.8rem;
+  background-color: #504c41;
+  border: 3px #0c0c0c solid;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+#divLogin {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.7);
+  height: 350px;
+  border-radius: 10px;
+  border: 0.2rem solid #0909ca;
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+  margin-top: -1rem;
+  max-width: 400px;
+  width: 80%;
+  background-color: #6868ff;
+}
+
+#camposLogin {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#labelLogin {
+  margin-bottom: 1rem;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  font-size: 20pt;
+}
+
+#cadastrarNome,
+#cadastrarEmail,
+#cadastrarSenha {
+  padding: 2px;
+  height: 1.1rem;
+  margin-bottom: .8rem;
+  border: 2px solid #0909ca;
+  border-radius: 4px;
+}
+
+#emailLogin,
+#senhaLogin,
+#nomeLogin {
+  padding: 2px;
+  height: 1.1rem;
+  margin-bottom: .8rem;
+  border: 2px solid #0909ca;
+  border-radius: 4px;
+}
+
+#nomeLogin,
+#cadastrarNome {
+    margin-bottom: -.4rem;
+}
+
+
+#botaoEnviar {
+    margin-bottom: 1rem;
+  cursor: pointer;
+  background-color: hsl(242, 95%, 84%);
+  border: 2px solid #0909ca;
+  border-radius: 6px;
+  width: 5rem;
+  height: 1.4rem;
+  justify-content: center;
+  display: block;
+}
+
+#botaoEnviar:active {
+    background-color: #a09dff;
+}
+
+#cadastrar {
+    margin-top: 1rem;
+    font-size: 10pt;
+}
+
+#cadastrar:active {
+    color: #090968;
+}
